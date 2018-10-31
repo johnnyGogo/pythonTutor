@@ -28,10 +28,25 @@ int({str})
 
 ### Operators
 #### if
+```python
+if condition:
+	pass
+```
 
 #### elif
+```python
+if condition:
+	pass
+elif condition:
+```
 
 #### else
+```python
+if condition:
+	pass
+else:
+	pass
+```
 
 #### ==
 
@@ -53,8 +68,6 @@ int({str})
 ### Strings
 
 ### Array
-
-### Conditions
 
 ### Functions
 
