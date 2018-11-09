@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 #轉義: \t \n ...
 
@@ -84,6 +85,6 @@ def title():
 
 
 if __name__ == '__main__':
-    fire.Fire()
-    import doctest
-    doctest.testmod()
+	fire.Fire()
+	import doctest
+	doctest.testmod()
