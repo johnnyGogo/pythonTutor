@@ -9,6 +9,7 @@
         1. [convert type](#convert-type)
         1. [enum](#enum)
     1. [Operators](#operators)
+        1. [三元運算](#%E4%B8%89%E5%85%83%E9%81%8B%E7%AE%97)
         1. [if](#if)
         1. [else if](#else-if)
         1. [else](#else)
@@ -33,6 +34,7 @@
     1. [Closure](#closure)
     1. [Modules](#modules)
     1. [Classes and Objects](#classes-and-objects)
+        1. [類別方法](#%E9%A1%9E%E5%88%A5%E6%96%B9%E6%B3%95)
     1. [DateTime](#datetime)
     1. [JSON](#json)
     1. [System](#system)
@@ -71,6 +73,11 @@ int({str})
 
 *******************
 ### Operators
+#### 三元運算
+```python
+condition_is_true if condition else condition_is_false
+```
+
 #### if
 ```python
 if condition:
@@ -133,18 +140,26 @@ False
 ### Iterate Advanced
 
 #### filter
-`f = filter(fn, array)`
+```python
+f = filter(fn, array)
+```
 
 #### map
-`m = map(fn, array)`
+```python
+m = map(fn, array)
+```
 
 #### reduce
-`d = reduce(fn, array)`
+```python
+d = reduce(fn, array)
+```
 
 
 *******************
 ### Lambda
-`f = lambda arg1, arg2, ....: expression`
+```python
+f = lambda arg1, arg2, ....: expression
+```
 
 
 *******************
@@ -162,6 +177,18 @@ False
 *******************
 ### Classes and Objects
 
+#### 類別方法
+```python
+class Some:
+    def __init__(self, x):
+        self.x = x
+
+    @classmethod
+    def service(clz, y):
+        print('do service...', clz, y)
+
+Some.service(30)
+```
 
 *******************
 ### DateTime
