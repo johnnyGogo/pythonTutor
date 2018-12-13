@@ -10,7 +10,7 @@
 
 #連結 join()
 
-#取代 replace() : str.replace({old}, {new}, {次數})
+#取代 replace() : str.replace({old}, {new}, {次數}[max])
 
 #尋找第一個位移 str.find({word})
 
@@ -73,7 +73,7 @@ def common_use():
 	#replace
 	print('\nstr.replace({old}, {new}, [次數])')
 	s = 'this is a dog'
-	print('{}.replace("is" , "", 2) : {}'.format(s, s.replace("is", "", 2	)))
+	print('{}.replace("is" , "", 2) : {}'.format(s, str_array))
 
 
 def capitalize():
